@@ -1,5 +1,5 @@
 name: Bug report
-about: Report a problem with FicBurrow.
+description: Report a problem with FicBurrow.
 title: "[Bug]: "
 labels: ["bug"]
 body:
