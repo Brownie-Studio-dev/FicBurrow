@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product page
+    url: https://brownie-studio-dev.github.io/ficburrow/
+    about: Learn about FicBurrow, downloads, and store availability.
+  - name: Privacy policy
+    url: https://brownie-studio-dev.github.io/privacy.html
+    about: Read how FicBurrow handles data.

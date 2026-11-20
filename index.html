@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FicBurrow is a personal library for saving stories and keeping reading notes across devices.">
+  <title>FicBurrow — Your reading library</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #26332a; background: #f5f6f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header, main, footer { width: min(100% - 2rem, 920px); margin-inline: auto; }
+    header { padding: 4rem 0 2.5rem; }
+    main { padding-bottom: 4rem; }
+    h1 { margin: 0; font-size: clamp(2.5rem, 8vw, 4.5rem); line-height: 1.05; letter-spacing: -.04em; }
+    h2 { margin-top: 2.5rem; line-height: 1.2; }
+    .lede { max-width: 680px; font-size: 1.25rem; color: #526256; }
+    .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+    .button { display: inline-block; padding: .65rem 1rem; border-radius: 999px; background: #486b52; color: white; text-decoration: none; font-weight: 650; }
+    .button.secondary { color: #344b39; background: #e4eadf; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .card { padding: 1.1rem; border: 1px solid #dce3d9; border-radius: 1rem; background: white; }
+    .placeholder { min-height: 150px; display: grid; place-items: center; padding: 1rem; border: 1px dashed #aab7aa; border-radius: 1rem; color: #647365; text-align: center; }
+    a { color: #41664b; }
+    footer { padding: 1.5rem 0 2.5rem; border-top: 1px solid #dce3d9; color: #667268; }
+    @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  </style>
+</head>
+<body>
+  <header>
+    <p>FICTION, KEPT CLOSE</p>
+    <h1>FicBurrow</h1>
+    <p class="lede">A personal library for collecting stories and keeping reading notes across your browsers and devices.</p>
+    <div class="actions">
+      <a class="button" href="https://github.com/Brownie-Studio-dev/ficburrow/releases">Downloads</a>
+      <a class="button secondary" href="https://github.com/Brownie-Studio-dev/ficburrow/issues">Feedback &amp; feature requests</a>
+    </div>
+  </header>
+  <main>
+    <section aria-labelledby="about">
+      <h2 id="about">Your stories, in one place</h2>
+      <p>Save works from AO3, FanFiction.net, pixiv, LOFTER, Ficbook, and ordinary web pages. Keep ratings, notes, folders, reading status, and progress in a library you control.</p>
+      <div class="grid">
+        <article class="card"><h3>Keep your own notes</h3><p>Remember what you read, what you thought, and where you left off.</p></article>
+        <article class="card"><h3>Choose how to sync</h3><p>Keep data on your device or connect a supported cloud service for syncing.</p></article>
+        <article class="card"><h3>Read across devices</h3><p>Use FicBurrow on desktop browsers, Android Firefox, BOOX, and iPhone.</p></article>
+      </div>
+    </section>
+    <section aria-labelledby="screenshots">
+      <h2 id="screenshots">A closer look</h2>
+      <div class="placeholder">Product screenshots will be added here.</div>
+    </section>
+    <section aria-labelledby="get">
+      <h2 id="get">Get FicBurrow</h2>
+      <div class="grid">
+        <article class="card"><h3>Mac and desktop browsers</h3><p>Store links will be added when listings are available.</p></article>
+        <article class="card"><h3>BOOX</h3><p>Public installation downloads will be listed in Releases when available.</p></article>
+        <article class="card"><h3>Android Firefox</h3><p>Firefox Add-ons and any direct downloads will be linked here when ready.</p></article>
+        <article class="card"><h3>iPhone</h3><p>A native Safari extension is planned for the App Store. The userscript remains available as an alternative.</p></article>
+      </div>
+      <p><a href="https://github.com/Brownie-Studio-dev/ficburrow/releases">Browse available downloads</a></p>
+    </section>
+    <section aria-labelledby="community">
+      <h2 id="community">Help shape FicBurrow</h2>
+      <p>Report a problem, suggest a feature, or ask a product question in the public issue tracker.</p>
+      <p><a class="button" href="https://github.com/Brownie-Studio-dev/ficburrow/issues">Open an issue</a></p>
+    </section>
+    <section aria-labelledby="privacy">
+      <h2 id="privacy">Privacy</h2>
+      <p>FicBurrow keeps your library on your device unless you choose to connect a sync or optional external service.</p>
+      <p><a href="https://brownie-studio-dev.github.io/privacy.html">Read the privacy policy</a></p>
+    </section>
+  </main>
+  <footer>FicBurrow by Brownie Studio · <a href="https://github.com/Brownie-Studio-dev/ficburrow">GitHub</a> · <a href="https://brownie-studio-dev.github.io/privacy.html">Privacy</a></footer>
+</body>
+</html>
